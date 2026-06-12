@@ -1,0 +1,70 @@
+body{
+
+    margin:0;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-family:Arial;
+
+    background:white;
+
+    color:black;
+
+    transition:0.5s;
+
+}
+
+
+.container{
+
+    text-align:center;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    background:#eee;
+
+}
+
+
+button{
+
+    margin-top:20px;
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
+}
+
+
+body.dark{
+
+    background:#121212;
+
+    color:white;
+
+}
+
+
+body.dark .container{
+
+    background:#333;
+
+}
+
+
+body.dark button{
+
+    background:white;
+
+    color:black;
+
+}
